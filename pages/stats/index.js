@@ -3,6 +3,8 @@ import Scraper from "../../utils/scraper";
 
 export default function Stats(props) {
   const playersAndSalaries = props.loadedData;
+  console.log(playersAndSalaries);
+  
   return <div>Stats</div>;
 }
 
