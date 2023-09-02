@@ -11,7 +11,7 @@ class Scraper {
     // add headless: false if you want to see the webpages open
     try {
       this.browserInstance = await puppeteer.launch({
-        headless: false,
+        headless: "new",
         args: ["--disable-setuid-sandbox"],
         ignoreHTTPSErrors: true,
       });
